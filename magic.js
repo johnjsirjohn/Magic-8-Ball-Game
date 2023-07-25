@@ -36,6 +36,6 @@ function myQuestionFunction() {
         else {
             console.log('Nothing')
         }
-      document.getElementById("demo").innerHTML = `The Magic 8 Ball answer is: ${eightBall}`;
+      document.getElementById("ballAnswer").innerHTML = `The Magic 8 Ball answer is: ${eightBall}`;
     }
 }
