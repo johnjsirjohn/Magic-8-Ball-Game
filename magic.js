@@ -11,7 +11,6 @@ function myQuestionFunction() {
     let userQuestion = prompt("Ask me anything you want to know!", "Ex: Am I going to Ibiza tonight?");
     if (userQuestion === '') {
         prompt("Ask me anything you want to know!")
-        console.log('Fun')
     } else {
         let randomNumber = Math.floor(Math.random() * 8)
         let eightBall = '';
