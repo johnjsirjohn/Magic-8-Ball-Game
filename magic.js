@@ -36,6 +36,7 @@ function myQuestionFunction() {
         else {
             console.log('Nothing')
         }
-      document.getElementById("ballAnswer").innerHTML = `The Magic 8 Ball answer is: ${eightBall}`;
+        document.getElementById("question").innerHTML = `Your question is: ${userQuestion}`;
+        document.getElementById("ballAnswer").innerHTML = `The Magic 8 Ball answer is: ${eightBall}`;
     }
 }
